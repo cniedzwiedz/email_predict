@@ -18,7 +18,8 @@ only having an "Amazon" payee in the ledger for my credit card makes it
 harder to categorize what I bought.
 
 This script will go through your amazon order confirmation messages and 
-attempt to match them with ledger lines.
+attempt to match them with ledger lines from a QFX file.  You may
+recognize this as a Quicken Web Connect file.
 
 
 ### Install
