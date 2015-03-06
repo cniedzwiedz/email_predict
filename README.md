@@ -20,6 +20,15 @@ harder to categorize what I bought.
 This script will go through your amazon order confirmation messages and 
 attempt to match them with ledger lines.
 
+
+### Install
+
+```sh
+python setup.py install
+```
+
+### Description
+
 ```
 usage: azn_reconcile.py [-h] [-f FOLDER] username QFX
 
