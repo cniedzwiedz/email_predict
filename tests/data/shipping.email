@@ -1,0 +1,571 @@
+Delivered-To: test@gmail.com
+Received: by 10.50.79.193 with SMTP id l1csp467323igx;
+        Fri, 19 Dec 2014 17:25:29 -0800 (PST)
+X-Received: by 10.220.98.206 with SMTP id r14mr3777412vcn.73.1419038729352;
+        Fri, 19 Dec 2014 17:25:29 -0800 (PST)
+Return-Path: <20141220012526290d21f3d7944b7c989889978579ce9b@bounces.amazon.com>
+Received: from a13-9.smtp-out.amazonses.com (a13-9.smtp-out.amazonses.com. [54.240.13.9])
+        by mx.google.com with ESMTPS id cv6si4225144vdc.10.2014.12.19.17.25.29
+        for <test@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Fri, 19 Dec 2014 17:25:29 -0800 (PST)
+Received-SPF: pass (google.com: domain of 20141220012526290d21f3d7944b7c989889978579ce9b@bounces.amazon.com designates 54.240.13.9 as permitted sender) client-ip=54.240.13.9;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of 20141220012526290d21f3d7944b7c989889978579ce9b@bounces.amazon.com designates 54.240.13.9 as permitted sender) smtp.mail=20141220012526290d21f3d7944b7c989889978579ce9b@bounces.amazon.com;
+       dkim=pass header.i=@amazon.com;
+       dmarc=pass (p=QUARANTINE dis=NONE) header.from=amazon.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1419038728;
+	h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:Feedback-ID;
+	bh=WiwbupNGDbJMEGehTyW1kqjEUWkGGlk6fxeuSXkIfKQ=;
+	b=N0+chqLKhQ9fBMgiOSC87DkJ9SdokW3YPhChV65E7aXCcgHfWwSA3OonVog3NFY4
+	xXJgpFSJT/+4jAvUbRWL8BQ6c5HLAcQCQXe/eWv5pSm9gIsYQ2nNELogLxDTO2abbTc
+	F7XPonX00ZlC8kZzaeTWpCJxWpHsXDC0ZXR8XRL0=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=yg4mwqurec7fkhzutopddd3ytuaqrvuz; d=amazon.com; t=1419038728;
+	h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type;
+	bh=WiwbupNGDbJMEGehTyW1kqjEUWkGGlk6fxeuSXkIfKQ=;
+	b=EZGAn+s8ot61xIWeNvMRC5V6M3rcy0QWLTmhJlfpHIjNqj9seqGDx021BzSemywv
+	71YMrofqF6DrjOFtfNXy7GgSXqmOeeZRY8wtGMyED81R7RSxQM9lTTXkBklbkf2StZB
+	3SoTdWHCS01nu2okIMTWApQQi+yWWibka6BMXngE=
+Date: Sat, 20 Dec 2014 01:25:28 +0000
+From: "Amazon.com" <ship-confirm@amazon.com>
+Reply-To: "ship-confirm@amazon.com" <ship-confirm@amazon.com>
+To: Test User <test@gmail.com>
+Message-ID: <0000014a654ca1d3-88da5061-8248-4e43-b163-40d0dfdb018b-000000@email.amazonses.com>
+Subject: Your Amazon.com order of "Zero: The Biography of a..." has shipped!
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_3914309_68131955.1419038728565"
+Bounces-to: 20141220012526290d21f3d7944b7c989889978579ce9b@bounces.amazon.com
+X-AMAZON-MAIL-RELAY-TYPE: notification
+X-AMAZON-RTE-VERSION: 2.0
+X-Original-MessageID: <urn.rtn.msg.20141220012526290d21f3d7944b7c989889978579ce9b@1419038728568.rte-svc-1a-i-efaafc9f.us-east-1.amazon.com>
+X-SES-Outgoing: 2014.12.20-54.240.13.9
+Feedback-ID: us-east-1.MjAxNDEyMjAwMTI1MjYyOTBkMjFmM2Q3OTQ0YjdjOTg5ODg5OTc4NTc5Y2U5YkBib3VuY2VzLmFtYXpvbi5jb20=:AmazonSES
+
+------=_Part_3914309_68131955.1419038728565
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_3914310_484983834.1419038728565"
+
+------=_Part_3914310_484983834.1419038728565
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Amazon.com Shipping Confirmation
+http://www.amazon.com/ref=TE_SIMP_g
+
+--------------------------------------------------------------------
+Hello Test User,
+
+"Zero: The Biography of a..." has shipped.
+
+Expected delivery date:
+    Sunday, December 21, 2014
+
+Track your package at:
+https://www.amazon.com/gp/css/shiptrack/view.html/ref=TE_SIMP_typ?ie=UTF8&addressID=jpjlpslmkip&latestArrivalDate=1419220800&orderID=113-0249024-7047472&shipmentDate=1419038436&orderingShipmentId=2226748442907&packageId=1
+
+Shipped to:
+    Test User
+    123 Sesame Street
+
+Depending on the ship speed you chose, it may take 24 hours for tracking information to be available in your account.
+		
+====================================================================
+
+    Total Before Tax: $13.60 
+    Tax Collected: $1.12
+    Shipment Total: $14.72 
+
+====================================================================
+
+View or manage your order in Your Orders:
+https://www.amazon.com/gp/css/order-details?orderId=113-0249024-7047472&ref_=TE_SIMP_
+
+We hope to see you again soon.
+Amazon.com
+www.amazon.com/ref=TE_SIMP_g
+
+--------------------------------------------------------------------
+Unless otherwise noted, items sold by Amazon.com LLC are subject to sales tax in select states in accordance with the applicable laws of that state. If your order contains one or more items from a seller other than Amazon.com LLC, it may be subject to state and local sales tax, depending upon the sellers business policies and the location of their operations. For more tax and seller information, visit: http://www.amazon.com/gp/help/customer/display.html?ie=UTF8&nodeId=200962600 
+
+Your invoice can be accessed here:
+https://www.amazon.com/gp/css/summary/print.html?orderID=113-0249024-7047472&ref_=TE_SIMP_inv
+
+This email was sent from a notification-only address that cannot accept incoming email. Please do not reply to this message.
+
+
+------=_Part_3914310_484983834.1419038728565
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+ <head>=20
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" =
+/>=20
+  <style type=3D"text/css">
+body {
+=09margin:0;
+    color:#333;
+}
+
+a {
+=09text-decoration:none;
+=09color:#006699;
+}
+
+p {
+=09margin:0px;
+}
+
+img {
+=09border:0;=09
+}
+
+/* container */
+#container {
+=09width:540px;
+=09margin:0 auto;
+}
+
+#content {
+=09width:500px;
+    margin:0 20px;
+}
+
+/* header */
+#header {
+=09border-bottom:1px solid #eaeaea;
+    padding-top:10px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-bottom:10px;
+}
+
+#logo {
+}
+
+#title {
+}
+
+#title p{
+=09font-size:20px;
+=09font-family: "arial", "sans-serif";
+}
+
+#amazonLogo{
+=09width:107px;
+    height:31px;
+}
+
+/* Greeting Summary */
+#greetingSummary {
+    padding-left:18px;
+    padding-right:0px;
+    padding-top:9px;
+    padding-bottom:18px;
+}
+
+#greetingSummary p {
+    font-size:14px;
+=09font-family: "arial", "sans-serif";
+}
+
+#greetingSummary .greeting{
+=09font-size:18px;
+    line-height:30px;
+    color:#cc6600;
+}
+
+/* critical info */
+#criticalInfo {
+    border-top:3px solid #cbcfd4;
+    background-color:#f6f7f8;
+}
+
+#criticalInfo_left{
+    padding-left:18px;
+    padding-right:9px;
+    padding-top:11px;
+    padding-bottom:14px;
+}
+
+#criticalInfo_right{
+    padding-left:9px;
+    padding-right:18px;
+    padding-top:11px;
+    padding-bottom:14px;
+}
+
+#criticalInfo p {
+    font-size:14px;
+=09font-family: "arial", "sans-serif";
+    font-weight:bold;
+}
+
+#criticalInfo .label {
+=09color:#666;=09
+    font-weight:normal;
+}
+
+#criticalInfo .info {
+    font-weight:normal;
+}
+
+#criticalInfo .important {
+=09color:#009900;
+}
+
+#criticalInfo .subtotals {
+=09font-size:12px;
+=09font-family: "arial", "sans-serif";
+    font-weight:normal;
+}
+
+#criticalInfo a {
+=09font-weight:normal;
+}
+
+#criticalInfo_bottom {
+=09padding-left:18px;
+    padding-top:9px;
+    padding-bottom:18px;
+}
+
+#criticalInfo_bottom p {
+=09font-size:11px;
+=09font-family: "arial", "sans-serif";
+}
+
+/* closing */
+#closing {
+    padding-left:18px;
+    padding-top:9px;
+    padding-bottom:18px;
+=09border-bottom:1px solid #eaeaea;
+}
+
+#closing p {
+    font-size:14px;
+=09font-family: "arial", "sans-serif";
+}
+
+#closing .signature {
+=09font-size:14px;=09
+=09font-weight:bold;
+}
+
+/* marketingContent */
+#marketingContent {
+=09border-bottom:1px solid #eaeaea;
+}
+
+/* footer */
+#footer {
+}
+
+#footer p {
+=09color:#666;
+=09font-size:10px;
+    line-height:16px;
+    padding-bottom:10px;
+=09font-family: "arial", "sans-serif";
+
+}
+</style>=20
+  <title></title>=20
+ </head>=20
+ <body style=3D"margin: 0; color: rgb(51, 51, 51)">=20
+  <table id=3D"container" cellspacing=3D"0" cellpadding=3D"0" align=3D"cent=
+er" style=3D"width: 540px; margin: 0 auto">=20
+   <tbody>
+    <tr>
+     <td>=20
+      <table id=3D"content" cellspacing=3D"0" cellpadding=3D"0" style=3D"wi=
+dth: 500px; margin: 0 20px">=20
+       <tbody>
+        <tr>=20
+         <td id=3D"header" style=3D"border-bottom: 1px solid rgb(234, 234, =
+234); padding-top: 10px; padding-left: 0px; padding-right: 0px; padding-bot=
+tom: 10px">=20
+          <table cellspacing=3D"0" cellpadding=3D"0">=20
+           <tbody>
+            <tr>=20
+             <td width=3D"250" id=3D"logo" style=3D""> <a href=3D"http://ww=
+w.amazon.com/gp/r.html?C=3DWOBS52892R54&K=3DALAUYYKJF6FBH&R=3DW58YBZHH1H4R&=
+T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.com%2Fref%3Dpe_385040_128020140_TE_SIMP_=
+&A=3D37LKLFRSQZAVLDILRTSDZMKWFSCA&H=3DGSNJQYREV0JMARHNGJ3YMHRQYN8A" title=
+=3D"Visit Amazon.com" style=3D"text-decoration: none; color: rgb(0, 102, 15=
+3)"><img id=3D"amazonLogo" alt=3D"Amazon" src=3D"http://g-ecx.images-amazon=
+.com/images/G/01/x-locale/cs/te/logo.png" style=3D"width: 107px; height: 31=
+px; border: 0" /></a> </td>=20
+             <td width=3D"250" id=3D"title" valign=3D"top" align=3D"right" =
+style=3D""> <p style=3D"font-size: 20px; font-family: &quot;arial&quot;, &q=
+uot;sans-serif&quot;; margin: 0px">Shipping Confirmation</p> </td>=20
+            </tr>=20
+           </tbody>
+          </table> </td>=20
+        </tr>=20
+        <tr>=20
+         <td id=3D"greetingSummary" style=3D"padding-left: 18px; padding-ri=
+ght: 0px; padding-top: 9px; padding-bottom: 18px"> <p style=3D"font-size: 1=
+4px; font-family: &quot;arial&quot;, &quot;sans-serif&quot;; margin: 0px"> =
+<span class=3D"greeting" style=3D"font-size: 18px; line-height: 30px; color=
+: rgb(204, 102, 0)">Hello Test User,</span><br /> <a href=3D"http://=
+www.amazon.com/gp/r.html?C=3DWOBS52892R54&K=3DALAUYYKJF6FBH&R=3DW58YBZHH1H4=
+R&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.com%2Fgp%2Fcss%2Forder-details%3Forder=
+Id%3D113-0249024-7047472%26ref_%3Dpe_385040_128020140_TE_SIMP_&A=3DR9C2QRZW=
+ZJKLCNA0CDFJ6OMVHUUA&H=3DGZPIN6PZGNQ4OXFVGQZWDBNE7O4A" style=3D"text-decora=
+tion: none; color: rgb(0, 102, 153)">&quot;Zero: The Biography of a...&quot=
+;</a> has shipped. </p> </td>=20
+        </tr>=20
+        <tr>=20
+         <td id=3D"criticalInfo" style=3D"border-top: 3px solid rgb(203, 20=
+7, 212); background-color: rgb(246, 247, 248)">=20
+          <table cellspacing=3D"0" cellpadding=3D"0">=20
+           <tbody>
+            <tr>=20
+             <td width=3D"223" valign=3D"top" id=3D"criticalInfo_left" styl=
+e=3D"padding-left: 18px; padding-right: 9px; padding-top: 11px; padding-bot=
+tom: 14px"> <p style=3D"font-size: 14px; font-family: &quot;arial&quot;, &q=
+uot;sans-serif&quot;; font-weight: bold; margin: 0px"> <span class=3D"label=
+" style=3D"color: rgb(102, 102, 102); font-weight: normal">Expected deliver=
+y date:</span><br /> <span class=3D"important" style=3D"color: rgb(0, 153, =
+0)"> Sunday, December 21, 2014 </span> </p> <br /> <p style=3D"font-size: 1=
+4px; font-family: &quot;arial&quot;, &quot;sans-serif&quot;; font-weight: b=
+old; margin: 0px"> <a href=3D"http://www.amazon.com/gp/r.html?C=3DWOBS52892=
+R54&K=3DALAUYYKJF6FBH&R=3DW58YBZHH1H4R&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.c=
+om%2Fgp%2Fcss%2Fshiptrack%2Fview.html%2Fref%3Dpe_385040_128020140_TE_SIMP_t=
+yp%3Fie%3DUTF8%26addressID%3Djpjlpslmkip%26latestArrivalDate%3D1419220800%2=
+6orderID%3D113-0249024-7047472%26shipmentDate%3D1419038436%26orderingShipme=
+ntId%3D2226748442907%26packageId%3D1&A=3DQTALZ1UFY9N1IEADUEBXKFC352UA&H=3DB=
+AEOJWYVEVA87OBNREQYBEUIITGA" style=3D"font-weight: normal; text-decoration:=
+ none; color: rgb(0, 102, 153)"> <img alt=3D"Track your package" id=3D"trac=
+kYourPackage" src=3D"http://g-ec2.images-amazon.com/images/G/01/x-locale/cs=
+/te/TrackYourPackage._V320689763_.png" style=3D"border: 0" /> </a> </p> <br=
+ /> <p style=3D"font-size: 14px; font-family: &quot;arial&quot;, &quot;sans=
+-serif&quot;; font-weight: bold; margin: 0px"> <a href=3D"http://www.amazon=
+.com/gp/r.html?C=3DWOBS52892R54&K=3DALAUYYKJF6FBH&R=3DW58YBZHH1H4R&T=3DC&U=
+=3Dhttps%3A%2F%2Fwww.amazon.com%2Fgp%2Fcss%2Forder-details%3ForderId%3D113-=
+0249024-7047472%26ref_%3Dpe_385040_128020140_TE_SIMP_&A=3DR9C2QRZWZJKLCNA0C=
+DFJ6OMVHUUA&H=3DGZPIN6PZGNQ4OXFVGQZWDBNE7O4A" style=3D"font-weight: normal;=
+ text-decoration: none; color: rgb(0, 102, 153)"> <img alt=3D"Your Orders" =
+id=3D"yourOrders" src=3D"http://g-ec2.images-amazon.com/images/G/01/x-local=
+e/cs/te/OrderDetails._V320688448_.png" style=3D"border: 0" /> </a> </p> </t=
+d>=20
+             <td width=3D"223" valign=3D"top" id=3D"criticalInfo_right" sty=
+le=3D"padding-left: 9px; padding-right: 18px; padding-top: 11px; padding-bo=
+ttom: 14px"> <p style=3D"font-size: 14px; font-family: &quot;arial&quot;, &=
+quot;sans-serif&quot;; font-weight: bold; margin: 0px"> <span class=3D"labe=
+l" style=3D"color: rgb(102, 102, 102); font-weight: normal">Shipped to:</sp=
+an><br /> Test User<br /> 123 Sesame Street... </p> <br />=20
+              <table cellspacing=3D"0" cellpadding=3D"0" id=3D"totals">=20
+               <tbody>
+                <tr>=20
+                 <td align=3D"left" valign=3D"top"> <p style=3D"font-size: =
+14px; font-family: &quot;arial&quot;, &quot;sans-serif&quot;; font-weight: =
+bold; margin: 0px"> <span class=3D"subtotals" style=3D"font-size: 12px; fon=
+t-family: &quot;arial&quot;, &quot;sans-serif&quot;; font-weight: normal"> =
+Total Before Tax:<br /> Tax Collected:<br /> </span> Shipment Total: </p> <=
+/td>=20
+                 <td>&nbsp;</td>=20
+                 <td align=3D"left" valign=3D"top"> <p style=3D"font-size: =
+14px; font-family: &quot;arial&quot;, &quot;sans-serif&quot;; font-weight: =
+bold; margin: 0px"> <span class=3D"subtotals" style=3D"font-size: 12px; fon=
+t-family: &quot;arial&quot;, &quot;sans-serif&quot;; font-weight: normal"> =
+$13.60<br /> $1.12<br /> </span> $14.72 </p> </td>=20
+                </tr>=20
+               </tbody>
+              </table>=20
+              <table cellspacing=3D"0" cellpadding=3D"0">
+               <tbody>
+                <tr>
+                 <td> <img align=3D"left" height=3D"1" src=3D"http://g-ec2.=
+images-amazon.com/images/G/01/x-locale/cs/te/MagicPixel._V319790361_.png" w=
+idth=3D"222" style=3D"border: 0" /> </td>
+                </tr>
+               </tbody>
+              </table> </td>=20
+            </tr>=20
+           </tbody>
+          </table> </td>=20
+        </tr>=20
+        <tr>=20
+         <td id=3D"criticalInfo_bottom" style=3D"padding-left: 18px; paddin=
+g-top: 9px; padding-bottom: 18px"> <p style=3D"font-size: 11px; font-family=
+: &quot;arial&quot;, &quot;sans-serif&quot;; margin: 0px"> Depending on the=
+ ship speed you chose, it may take 24 hours for tracking information to be =
+available in your account. </p> </td>=20
+        </tr>=20
+        <tr>=20
+         <td id=3D"closing" style=3D"padding-left: 18px; padding-top: 9px; =
+padding-bottom: 18px; border-bottom: 1px solid rgb(234, 234, 234)"> <p styl=
+e=3D"font-size: 14px; font-family: &quot;arial&quot;, &quot;sans-serif&quot=
+;; margin: 0px">We hope to see you again soon.<br /> <span class=3D"signatu=
+re" style=3D"font-size: 14px; font-weight: bold">Amazon.com</span></p> </td=
+>=20
+        </tr>=20
+        <tr>=20
+         <td id=3D"marketingContent" style=3D"border-bottom: 1px solid rgb(=
+234, 234, 234)">=20
+          <table width=3D"500" class=3D"deviceWidth" cellspacing=3D"0" cell=
+padding=3D"0" align=3D"inherit" bgcolor=3D"#FFFFFF">=20
+           <tbody>
+            <tr height=3D"0" class=3D"spacer">
+             <td>
+              <div width=3D"500" class=3D"spacer" style=3D"font-size:0px;li=
+ne-height:0px;">
+               &nbsp;
+              </div></td>
+            </tr>=20
+            <tr>=20
+             <td style=3D"font-family:Arial,Sans-Serif;font-size:18px;font-=
+weight:normal;font-style:normal;text-decoration:none;color:#C60;text-align:=
+left;padding:6px 0 0 18px;"> Bargain Recommendations </td>=20
+            </tr>=20
+            <tr height=3D"0" class=3D"spacer">
+             <td>
+              <div width=3D"500" class=3D"spacer" style=3D"font-size:0px;li=
+ne-height:0px;">
+               &nbsp;
+              </div></td>
+            </tr>=20
+           </tbody>
+          </table>=20
+          <table width=3D"500" cellspacing=3D"0" cellpadding=3D"0" border=
+=3D"0" align=3D"left" class=3D"deviceWidth" style=3D"vertical-align:central=
+;background:white;">=20
+           <tbody>
+            <tr>=20
+             <td width=3D"48%" bgcolor=3D"#ffffff" align=3D"left" class=3D"=
+asin_2col" style=3D"vertical-align:middle;">=20
+              <table>=20
+               <tbody>
+                <tr>=20
+                 <td align=3D"center" style=3D"padding:5px 0 5px 5px;"> <a =
+href=3D"http://www.amazon.com/gp/r.html?C=3DWOBS52892R54&K=3DALAUYYKJF6FBH&=
+R=3DW58YBZHH1H4R&T=3DC&U=3Dhttp%3A%2F%2Fwww.amazon.com%2Fgp%2Fproduct%2F067=
+9747885%2Fref%3Dpe_385040_128020140_sch_2p_1_0_im%2F189-9104620-9550064&A=
+=3DVNC6XPU6RIQAN4WCQ3PU41UTYLWA&H=3D93CTJQPDSVMJHSP89FRQT7SCRIQA" style=3D"=
+text-decoration: none; color: rgb(0, 102, 153)"> <img src=3D"https://images=
+-na.ssl-images-amazon.com/images/I/51vc1ALluiL._SL500_SS70_.jpg" width=3D"7=
+0" height=3D"70" class=3D"pr_image_70 pr_image_desktop" alt=3D"A Tour of th=
+e Calculus" border=3D"0" style=3D"border: 0" /> </a> </td>=20
+                 <td align=3D"left" width=3D"184" style=3D"padding:10px 0 1=
+0px 10px;">=20
+                  <table>=20
+                   <tbody>
+                    <tr align=3D"left" style=3D"padding:0 8px 0 6px; displa=
+y:block; line-height:16px">=20
+                     <td> <a href=3D"http://www.amazon.com/gp/r.html?C=3DWO=
+BS52892R54&K=3DALAUYYKJF6FBH&R=3DW58YBZHH1H4R&T=3DC&U=3Dhttp%3A%2F%2Fwww.am=
+azon.com%2Fgp%2Fproduct%2F0679747885%2Fref%3Dpe_385040_128020140_sch_2p_1_0=
+_ti%2F189-9104620-9550064&A=3DQ7QOXQ9UNBHHIXVYZ2DONIAWZTCA&H=3DYZSVOK5AOB7D=
+RHBTKWL4HEA4ABYA" style=3D"font-family: Arial, Sans-Serif; text-decoration:=
+ none; color: rgb(0, 102, 153); font-size: 13px">A Tour of the Calculus</a>=
+ </td>=20
+                    </tr>=20
+                    <tr align=3D"left" style=3D"padding:0 8px 0 6px; displa=
+y:block; line-height:16px">=20
+                     <td> <span style=3D"font-family:Arial,Sans-Serif; text=
+-decoration:none; color:#900; font-size:13px; vertical-align:3px"> $12.66 <=
+/span> <span style=3D"vertical-align:0px"><img src=3D"https://images-na.ssl=
+-images-amazon.com/images/G/01/traffic/tea/prime-badge._V185692621_.gif" wi=
+dth=3D"45" height=3D"17" border=3D"0" style=3D"border: 0" /></span> </td>=
+=20
+                    </tr>=20
+                   </tbody>
+                  </table> </td>=20
+                </tr>=20
+               </tbody>
+              </table> </td>=20
+             <td width=3D"48%" bgcolor=3D"#ffffff" align=3D"left" class=3D"=
+asin_2col" style=3D"vertical-align:middle;">=20
+              <table>=20
+               <tbody>
+                <tr>=20
+                 <td align=3D"center" style=3D"padding:5px 0 5px 5px;"> <a =
+href=3D"http://www.amazon.com/gp/r.html?C=3DWOBS52892R54&K=3DALAUYYKJF6FBH&=
+R=3DW58YBZHH1H4R&T=3DC&U=3Dhttp%3A%2F%2Fwww.amazon.com%2Fgp%2Fproduct%2F076=
+7908163%2Fref%3Dpe_385040_128020140_sch_2p_1_1_im%2F189-9104620-9550064&A=
+=3DFYKZQKA1LC4GCDZSEVJB11XBZUOA&H=3DAZG5MWWJIAWP7LLFAYJFIMPN5MYA" style=3D"=
+text-decoration: none; color: rgb(0, 102, 153)"> <img src=3D"https://images=
+-na.ssl-images-amazon.com/images/I/51nOpMy5leL._SL500_SS70_.jpg" width=3D"7=
+0" height=3D"70" class=3D"pr_image_70 pr_image_desktop" alt=3D"The Golden R=
+atio: The Story of PHI, the World's Most Astonishing Number" border=3D"0" s=
+tyle=3D"border: 0" /> </a> </td>=20
+                 <td align=3D"left" width=3D"184" style=3D"padding:10px 0 1=
+0px 10px;">=20
+                  <table>=20
+                   <tbody>
+                    <tr align=3D"left" style=3D"padding:0 8px 0 6px; displa=
+y:block; line-height:16px">=20
+                     <td> <a href=3D"http://www.amazon.com/gp/r.html?C=3DWO=
+BS52892R54&K=3DALAUYYKJF6FBH&R=3DW58YBZHH1H4R&T=3DC&U=3Dhttp%3A%2F%2Fwww.am=
+azon.com%2Fgp%2Fproduct%2F0767908163%2Fref%3Dpe_385040_128020140_sch_2p_1_1=
+_ti%2F189-9104620-9550064&A=3DBB82XHF3ULVAN1KB7LLXV93JFF0A&H=3DK6IDBA7VARMX=
+53QRP6OVRAATBICA" style=3D"font-family: Arial, Sans-Serif; text-decoration:=
+ none; color: rgb(0, 102, 153); font-size: 13px">The Golden Ratio: The Stor=
+y of PHI, the World's Most...</a> </td>=20
+                    </tr>=20
+                    <tr align=3D"left" style=3D"padding:0 8px 0 6px; displa=
+y:block; line-height:16px">=20
+                     <td> <span style=3D"font-family:Arial,Sans-Serif; text=
+-decoration:none; color:#900; font-size:13px; vertical-align:3px"> $13.53 <=
+/span> <span style=3D"vertical-align:0px"><img src=3D"https://images-na.ssl=
+-images-amazon.com/images/G/01/traffic/tea/prime-badge._V185692621_.gif" wi=
+dth=3D"45" height=3D"17" border=3D"0" style=3D"border: 0" /></span> </td>=
+=20
+                    </tr>=20
+                   </tbody>
+                  </table> </td>=20
+                </tr>=20
+               </tbody>
+              </table> </td>=20
+            </tr>=20
+           </tbody>
+          </table> </td>=20
+        </tr>=20
+        <tr>=20
+         <td id=3D"footer" style=3D""> <p style=3D"color: rgb(102, 102, 102=
+); font-size: 10px; line-height: 16px; padding-bottom: 10px; font-family: &=
+quot;arial&quot;, &quot;sans-serif&quot;; margin: 0px">Unless otherwise not=
+ed, items sold by Amazon.com LLC are subject to sales tax in select states =
+in accordance with the applicable laws of that state. If your order contain=
+s one or more items from a seller other than Amazon.com LLC, it may be subj=
+ect to state and local sales tax, depending upon the sellers business polic=
+ies and the location of their operations. Learn more about <a href=3D"http:=
+//www.amazon.com/gp/r.html?C=3DWOBS52892R54&K=3DALAUYYKJF6FBH&R=3DW58YBZHH1=
+H4R&T=3DC&U=3Dhttp%3A%2F%2Fwww.amazon.com%2Fgp%2Fhelp%2Fcustomer%2Fdisplay.=
+html%2Fref%3Dpe_385040_128020140_TE_SIMP_tx%3Fie%3DUTF8%26nodeId%3D20096260=
+0&A=3DZYT9YKKXHMF5GJVA27QTUREZFC8A&H=3DMY97GMJ7SAZ4ZBWDARPGCFKN0XEA" style=
+=3D"text-decoration: none; color: rgb(0, 102, 153)">tax and seller informat=
+ion</a>.</p> <p style=3D"color: rgb(102, 102, 102); font-size: 10px; line-h=
+eight: 16px; padding-bottom: 10px; font-family: &quot;arial&quot;, &quot;sa=
+ns-serif&quot;; margin: 0px"> Your invoice can be accessed <a href=3D"http:=
+//www.amazon.com/gp/r.html?C=3DWOBS52892R54&K=3DALAUYYKJF6FBH&R=3DW58YBZHH1=
+H4R&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.com%2Fgp%2Fcss%2Fsummary%2Fprint.htm=
+l%3ForderID%3D113-0249024-7047472%26ref_%3Dpe_385040_128020140_TE_SIMP_inv&=
+A=3D0A9LKWSCYPABWITY2WNYBO41TZCA&H=3DMCPQM0XEYFEYY2RMCH7JMU5IDIUA" style=3D=
+"text-decoration: none; color: rgb(0, 102, 153)">here</a>. </p> <p style=3D=
+"color: rgb(102, 102, 102); font-size: 10px; line-height: 16px; padding-bot=
+tom: 10px; font-family: &quot;arial&quot;, &quot;sans-serif&quot;; margin: =
+0px"> This email was sent from a notification-only address that cannot acce=
+pt incoming email. Please do not reply to this message. </p> </td>=20
+        </tr>=20
+       </tbody>
+      </table> </td>
+    </tr>=20
+   </tbody>
+  </table> =20
+ <img src=3D"http://www.amazon.com/gp/r.html?C=3DWOBS52892R54&K=3DALAUYYKJF=
+6FBH&R=3DW58YBZHH1H4R&T=3DE&U=3Dhttp%3A%2F%2Fimages.amazon.com%2Fimages%2FG=
+%2F01%2Fnav%2Ftransp.gif&A=3DRZO8X7LJAZYHHUKUZDXSB41S1VAA&H=3D1NCUVN0RK12WP=
+KACHE0QIDAYEXWA" /></body>
+</html>       =20
+
+------=_Part_3914310_484983834.1419038728565--
+
+------=_Part_3914309_68131955.1419038728565--
+
